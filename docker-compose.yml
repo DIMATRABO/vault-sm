@@ -6,6 +6,8 @@ services:
     build:
       context: ./vault
       dockerfile: Dockerfile
+    ports:
+      - "8200:8200"
     volumes:
       - ./vault/config:/vault/config
       - ./vault/policies:/vault/policies
