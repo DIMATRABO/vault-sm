@@ -3,7 +3,7 @@ sudo yum install -y docker
 # run docker
 sudo service docker start
 
-#install python3 and pip
+# install python3 and pip
 sudo yum install python3
 sudo yum install python3-pip
 
